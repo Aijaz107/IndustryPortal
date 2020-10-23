@@ -8,6 +8,7 @@ from operator import itemgetter
 from datetime import date
 from time import gmtime, strftime   
 import datetime
+import  sys
 today = date.today()
 system_date = today.strftime("%Y-%m-%d")
 current_time = datetime.datetime.now()
@@ -144,4 +145,10 @@ def AddCustomer(request):
     
 
 def DeleteAccount(request):
+    pass
+def getName(firstName,lastName):
+    pass
+def getAddress():
+    pass
+def getInfo():
     pass
